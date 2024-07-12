@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promosi SCC</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #background {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            z-index: -1;
+        }
+
+        #text-container {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-size: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <video id="background" src="Resource/background.mp4" autoplay loop muted ></video>
+    <div id="text-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
